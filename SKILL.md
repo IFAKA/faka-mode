@@ -36,6 +36,13 @@ Then provide the minimum explanation needed to apply and verify it.
 
 When editing code, prefer doing the work over describing how the user could do it.
 
+For substantial implementation work, use independent verification when the expected quality gain justifies the extra compute:
+- after implementation and ordinary tests/checks, spawn a fresh-context subagent to review the resulting code against the task/spec;
+- ask it to search specifically for bugs, regressions, missed requirements, unsafe assumptions, and unnecessary complexity;
+- give it the task/spec and resulting artifact, but avoid inheriting the implementation agent's reasoning when possible;
+- independently validate its findings, fix valid issues, and run final verification;
+- skip this for trivial or easily verified changes where the review cost is unlikely to pay off.
+
 ### Debugging
 
 Use:
