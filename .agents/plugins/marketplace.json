@@ -1,0 +1,20 @@
+{
+  "name": "ifaka",
+  "interface": {
+    "displayName": "IFAKA Plugins"
+  },
+  "plugins": [
+    {
+      "name": "faka-mode",
+      "source": {
+        "source": "local",
+        "path": "./plugins/faka-mode"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "faka-mode",
+  "version": "0.1.0",
+  "description": "Answer-first, high-information-density interaction guidance for Codex.",
+  "author": {
+    "name": "IFAKA",
+    "url": "https://github.com/IFAKA"
+  },
+  "homepage": "https://github.com/IFAKA/faka-mode",
+  "repository": "https://github.com/IFAKA/faka-mode",
+  "license": "MIT",
+  "keywords": ["interaction", "communication", "productivity", "codex"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "FAKA Mode",
+    "shortDescription": "High-SNR interaction defaults for Codex.",
+    "longDescription": "FAKA Mode makes Codex lead with the useful answer, preserve context, minimize friction, and adapt its response shape to the task.",
+    "developerName": "IFAKA",
+    "category": "Productivity",
+    "capabilities": ["Interactive"],
+    "websiteURL": "https://github.com/IFAKA/faka-mode",
+    "defaultPrompt": [
+      "Use FAKA Mode for this task.",
+      "Answer this directly and keep the signal high."
+    ],
+    "brandColor": "#111827"
+  }
+}
