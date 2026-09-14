@@ -5,8 +5,7 @@
 Make the repository install exactly one Codex skill with one command:
 
 ```bash
-mkdir -p ~/.codex/skills
-git clone https://github.com/IFAKA/faka-mode.git ~/.codex/skills/faka-mode
+mkdir -p ~/.codex/skills && git clone https://github.com/IFAKA/faka-mode.git ~/.codex/skills/faka-mode
 ```
 
 ## Design

@@ -39,24 +39,13 @@ FAKA Mode pushes toward:
 ### Recommended
 
 ```bash
-mkdir -p ~/.codex/skills
-git clone https://github.com/IFAKA/faka-mode.git ~/.codex/skills/faka-mode
+mkdir -p ~/.codex/skills && git clone https://github.com/IFAKA/faka-mode.git ~/.codex/skills/faka-mode
 ```
 
 Restart Codex after installing.
 
-### Install through Codex Plugins
-
-For ChatGPT Business, Enterprise, Edu, or other workspaces with plugin management, a workspace
-administrator can import this repository as a GitHub plugin marketplace:
-
-1. Open **Workspace settings → Plugins → Add → Import marketplace**.
-2. Enter `https://github.com/IFAKA/faka-mode` as the repository URL.
-3. Leave **Path** empty and import the marketplace.
-4. Set the plugin's installation policy, then members can install **FAKA Mode** from Codex.
-
-This lets members install and receive updates through Codex without cloning or downloading the
-repository themselves. Availability depends on the workspace plan and admin settings.
+This repository is intentionally a standalone skill package. It does not include a nested plugin
+package, so the command above installs one discoverable skill and only one `SKILL.md`.
 
 ### Verify
 
